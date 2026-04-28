@@ -64,6 +64,7 @@ El dataset cuenta con más de 100,000 órdenes registradas, lo que permite reali
 3. **EDA Inicial**
 
 **Visualización 1: Distribución de calificaciones de clientes**
+
 ![img](images/imagen1.png)
 
 
@@ -90,7 +91,9 @@ Esta visualización compara los días de entrega con la calificación otorgada p
 Si se observa que las calificaciones disminuyen cuando el tiempo de entrega aumenta, se podría concluir que la logística tiene un impacto directo en la satisfacción del cliente.
 
 **Visualización 4: Costo de envío promedio por categoría**
+
 ![img](images/imagen4.png)
+
 Esta visualización permite comparar cuánto pagan los clientes por envío según la categoría del producto. Algunas categorías pueden tener costos más altos debido al peso, volumen o distancia logística.
 
 **Interpretación esperada:**  
