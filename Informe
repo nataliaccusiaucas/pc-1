@@ -12,10 +12,11 @@ Natalia Ccusi
 
 **Roles:**
 
- **Líder de proyecto:** (Carlos) – Coordinación y entregables  
- **Analista de datos:** (Valeria) – Limpieza y EDA  
- **Ingeniero de datos:** ( Diego ) – Integración de datasets  
- **Analista de negocio:** (Diandra) – Insights y recomendaciones
+ **Líder de proyecto:** Carlos Carrizales  
+ **Analista de datos:** Valeria Ayala  
+ **Ingeniero de datos:** Diego Alvarez   
+ **Analista de negocio:** Diandra Bañez  
+ **Especialista en visualización y reporting:** Natalia Ccusi
 
 1. **Descripción del problema de negocio**
 
@@ -67,7 +68,6 @@ El dataset cuenta con más de 100,000 órdenes registradas, lo que permite reali
 
 ![img](images/imagen1.png)
 
-
 Esta visualización permite observar cómo se distribuyen las reseñas de los clientes en una escala de 1 a 5\. El objetivo es identificar si la mayoría de compradores tuvo una experiencia positiva o si existe una proporción significativa de clientes insatisfechos.
 
 **Interpretación esperada:**  
@@ -83,6 +83,7 @@ Esta visualización muestra las categorías de productos con mayor volumen de ve
 Las categorías con mayor número de pedidos pueden representar oportunidades de optimización, ya que cualquier mejora en precio, envío o satisfacción dentro de ellas tendría un impacto importante en el negocio.
 
 **Visualización 3: Relación entre tiempo de entrega y calificación del cliente**
+
 ![img](images/imagen3.png)
 
 Esta visualización compara los días de entrega con la calificación otorgada por el cliente. El objetivo es analizar si los pedidos que demoran más reciben peores reseñas.
@@ -108,23 +109,31 @@ Esta visualización clasifica los pedidos según si fueron entregados antes o de
 **Interpretación esperada:**  
 Un alto porcentaje de entregas tardías podría explicar parte de las calificaciones negativas. Además, esta métrica puede ser usada como indicador clave para proponer recomendaciones en la etapa final.
 
-4. **Hipótesis del trabajo**  
-   
+**4\. Hipótesis de negocio**
 
- **a.**
+Para la Etapa 2 de este proyecto, el equipo se enfocará en validar las siguientes hipótesis de negocio mediante análisis estadístico y modelos básicos:
 
-*  H₀: El tiempo de entrega no tiene efecto significativo sobre la calificación del cliente.  
-* H₁: Los pedidos entregados después de la fecha estimada presentan calificaciones más bajas que los pedidos entregados a tiempo, porque el retraso afecta directamente la experiencia de compra.
+1\. ¿Los pedidos con mayor tiempo de entrega reciben calificaciones más bajas que los pedidos entregados dentro del plazo estimado, debido a que la demora afecta la experiencia de compra del cliente?
 
-**b.**
+2\. ¿Los costos de envío elevados reducen la satisfacción del cliente, especialmente cuando representan una proporción importante del costo total de la compra?
 
-* H₀: El costo de envío no influye significativamente en la satisfacción del cliente.  
-* H₁: Los pedidos con costos de envío más altos presentan menor calificación promedio, porque el cliente percibe menor valor cuando el envío representa una proporción alta del costo total.
+3\. ¿Existen categorías de productos que obtienen mejores calificaciones que otras debido a diferencias en expectativas del cliente, características del producto y desempeño logístico?
 
-**c.**
+4\. ¿El precio del producto influye en la calificación del cliente, considerando que precios más altos pueden generar mayores expectativas sobre la calidad y el servicio recibido?
 
-* H₀: La categoría del producto no diferencia el nivel de satisfacción del cliente.  
-* H₁: Algunas categorías presentan calificaciones consistentemente más altas que otras, debido a diferencias en expectativas **del cliente, tiempos logísticos y características del producto.**
+**Variables a analizar**
+
+Para validar estas hipótesis se utilizarán variables del dataset relacionadas con el proceso de compra y la experiencia del cliente:
+
+*  Tiempo de entrega: diferencia entre la fecha estimada y la fecha real de entrega.  
+*  Costo de envío: valor pagado por el transporte del pedido.  
+* Precio del producto: precio registrado del artículo comprado.  
+* Categoría del producto: clasificación del producto dentro del marketplace.  
+* Calificación del cliente: puntaje de satisfacción otorgado en la reseña.
+
+**Enfoque de análisis**
+
+* Las hipótesis serán evaluadas mediante análisis exploratorio de datos, comparación de grupos, análisis de correlación y segmentación por categorías. Esto permitirá identificar qué variables tienen mayor relación con la satisfacción del cliente y cuáles podrían convertirse en oportunidades de mejora para el marketplace.
 
 **5\. Plan de trabajo – Etapa 2 (Semanas 7–14)**
 
@@ -139,3 +148,17 @@ Un alto porcentaje de entregas tardías podría explicar parte de las calificaci
 | 13 | Presentación | Diandra |
 | 14 | Entrega final | Todo el equipo |
 
+**6\.  Apéndice**
+
+Durante el desarrollo del presente trabajo, el equipo utilizó herramientas de inteligencia artificial generativa, específicamente ChatGPT, como apoyo en la elaboración del informe.
+
+El uso de la IA se enfocó principalmente en:
+
+- La mejora de la redacción y claridad del contenido.  
+- La organización de la estructura del documento.  
+- La formulación y ajuste de las hipótesis de negocio.  
+-  La revisión de la coherencia entre el problema planteado, los datos utilizados y el análisis exploratorio realizado.
+
+Es importante destacar que todas las sugerencias generadas por la herramienta fueron revisadas, contrastadas y validadas por los integrantes del equipo antes de ser incorporadas al documento final.
+
+Asimismo, el análisis de datos, la interpretación de los resultados, las visualizaciones y las conclusiones presentadas corresponden al trabajo propio del equipo, basado en el dataset utilizado y en el desarrollo del notebook.
