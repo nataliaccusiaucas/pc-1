@@ -8,12 +8,12 @@ Valeria Ayala
 Diandra Bañez  
 Diego Alvarez  
 Carlos Carrizales  
-Natalia
+Natalia Ccusi
 
 **Roles:**
 
-       **Líder de proyecto:** (Carlos) – Coordinación y entregables  
- 			**Analista de datos:** (Valeria) – Limpieza y EDA  
+ **Líder de proyecto:** (Carlos) – Coordinación y entregables  
+ **Analista de datos:** (Valeria) – Limpieza y EDA  
  **Ingeniero de datos:** ( Diego ) – Integración de datasets  
  **Analista de negocio:** (Diandra) – Insights y recomendaciones
 
